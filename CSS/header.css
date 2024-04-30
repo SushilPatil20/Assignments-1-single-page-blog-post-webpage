@@ -1,0 +1,86 @@
+/* ----------------------------------- Styling the nav Bar ----------------------------------- */
+
+#showSideBar,
+#hideSideBar {
+    display: none;
+    position: absolute;
+    top: 12px;
+    color: rgb(66, 64, 64);
+    transition: 0.2s ease;
+    font-size: 28px;
+    width: fit-content;
+    height: 45px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+#hideSideBar {
+    right: 24px;
+}
+
+#hideSideBar:hover,
+#showSideBar:hover {
+    background-color: rgba(173, 166, 166, 0.328);
+    color: black;
+}
+
+#logo {
+    font-size: 33px;
+    font-family: cursive;
+    color: rgb(48, 127, 245);
+    text-shadow: 2px 2px 2px black;
+}
+
+header>nav {
+    height: 80px;
+    box-shadow: 3px 3px 6px gray;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navigationLinks {
+    transition: all 0.6s ease;
+}
+
+.navigationLinks>a {
+    margin: 0 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(0, 0, 172);
+    transition: all 0.2s ease;
+}
+
+.navigationLinks>a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.navigationLinks>a>li {
+    list-style: none;
+}
+
+/* ----------------------------------- Styling the hero (Header Section) ----------------------------------- */
+#heroSection {
+    position: relative;
+    padding: 40px 10rem;
+    text-align: justify;
+    line-height: 32px;
+}
+
+
+#heroSection>p {
+    color: rgb(0, 0, 172);
+    font-size: 18px;
+    text-shadow: 1px 1px 1px black;
+}
+
+#heroSection>h1 {
+    margin: 30px 0;
+    /* font-size: 44px; */
+    text-align: center;
+    color: rgb(48, 127, 245);
+    font-family: cursive;
+    text-shadow: 1px 1px 1px black;
+}

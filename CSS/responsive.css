@@ -1,0 +1,224 @@
+/* Apply this styling when screen width or size reaches to 734px */
+@media (max-width:734px) {
+    /* ----------------------------------- Responsivness of navBar ----------------------------------- */
+
+    #hideSideBar,
+    #showSideBar {
+        display: block;
+    }
+
+    .navigationLinks {
+        position: absolute;
+        flex-direction: column;
+        height: 100vh;
+        width: 50vw;
+        top: 80px;
+        left: -100%;
+        background-color: #fff;
+        z-index: 10;
+        text-align: center;
+        padding: 80px 30px 0;
+        border-right: 8px solid rgba(192, 184, 184, 0.243);
+    }
+
+    .navigationLinks>a {
+        margin: 14px 0;
+        padding: 12px 12px;
+        border-radius: 6px;
+        box-shadow: 3px 3px 6px rgba(165, 155, 155, 0.337);
+        color: black;
+    }
+
+    .navigationLinks>a:hover {
+        margin: 10px 0;
+        padding: 12px 12px;
+        background-color: white;
+        border-radius: 6px;
+    }
+
+
+    /* ----------------------------------- Responsiveness of hero(header) section ----------------------------------- */
+    #heroSection {
+        padding: 40px 2rem;
+    }
+
+    /* ----------------------------------- Responsiveness of about  section ----------------------------------- */
+    #about {
+        width: 100%;
+    }
+
+    /* ----------------------------------- Responsiveness of contact section ----------------------------------- */
+
+    #contact {
+        padding: 24px;
+    }
+
+    .formSection {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #contact form,
+    .formSectionRight {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contact form label {
+        font-size: 18px;
+    }
+
+    .formSectionRight>section>div>a {
+        margin: 0 14px;
+        font-size: 16px;
+    }
+
+    .formSectionRight>section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .formSectionRight strong {
+        font-size: 22px;
+        color: rgb(2, 2, 104);
+        margin: 28px 0 0;
+        display: block;
+    }
+
+    .formSectionRight>section>div {
+        margin: 12px 0 0;
+    }
+
+    .contactIcon {
+        height: 35px;
+        width: 35px;
+        font-size: 16px;
+    }
+
+    .formSection>form>button {
+        padding: 8px 16px;
+        font-size: 16px;
+        border-radius: 3px;
+        font-weight: 100;
+    }
+
+}
+
+
+
+
+/* Apply this styling when screen width or size reaches to 912px */
+
+@media (max-width:912px) {
+
+    /* ----------------------------------- Responsiveness of blogpost ----------------------------------- */
+    #blogSection {
+        flex-direction: column;
+    }
+
+    .blogPost {
+        width: 100%;
+        margin: 18px 0;
+    }
+
+    .blogPost>section>img {
+        object-fit: cover;
+    }
+}
+
+
+
+
+
+
+/* Apply this styling when screen width or size reaches to 460px */
+@media (max-width:460px) {
+
+    /* Hero section */
+    #heroSection {
+        padding: 40px 1rem;
+    }
+
+    #heroSection>h1 {
+        margin: 18px 0;
+    }
+
+
+    /* SideBar */
+    .navigationLinks {
+        width: 70vw;
+    }
+
+    #showSideBar,
+    #hideSideBar {
+        top: 3px;
+        font-size: 22px;
+        padding: 0;
+    }
+
+    #hideSideBar:hover,
+    #showSideBar:hover {
+        background-color: transparent;
+        color: black;
+    }
+
+
+    #showSideBar {
+        left: 7px;
+    }
+
+    #hideSideBar {
+        top: 7px;
+        right: 7px;
+    }
+
+    /* Main body section */
+    main#mainBody {
+        padding: 0 1rem;
+    }
+
+    /* Blog Section */
+    .blogPostTop h2 {
+        font-size: 16px;
+    }
+
+    .blogPost p,
+    .blogPost li {
+        font-size: 14px;
+    }
+
+
+    /* About section */
+    .text-33 {
+        font-size: 24px;
+    }
+
+    #about>article>p {
+        line-height: 22px;
+        font-size: 14px;
+    }
+
+
+
+    /* Footer Section*/
+    .footerBottom {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .footerBottom pre {
+        margin-top: 8px;
+        font-size: 12px;
+    }
+
+    .contactIcon {
+        height: 30px;
+        width: 30px;
+        font-size: 16px;
+    }
+
+    footer.footerSection>section>ul>a>li {
+        font-size: 14px;
+    }
+}

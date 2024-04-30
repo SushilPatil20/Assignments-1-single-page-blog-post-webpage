@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sushil">
+    <title>Assignment-2-styling-single-page-blog website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+</head>
+
+<body>
+    <header>
+        <nav class="flex p-24">
+            <span id="logo">Personal Blog</span>
+            <ul class="navigationLinks flex" id="sideBar">
+                <span id="hideSideBar" onclick="toggleSideBar()"><i class="fa-solid fa-xmark"></i></span>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#california">
+                    <li>California</li>
+                </a>
+                <a href="#bali">
+                    <li>Bali</li>
+                </a>
+                <a href="#italy">
+                    <li>Italy</li>
+                </a>
+                <a href="#about">
+                    <li>About Me</li>
+                </a>
+                <a href="#contact">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </nav>
+        <section id="heroSection" class="p-24">
+            <span id="showSideBar" onclick="toggleSideBar()"><i class="fa-solid fa-bars"></i></span>
+            <h1 class="text-33">Sushil Patil</h1>
+            <p><strong class="importent">Welcome to my travel blog! I'm Sushil Patil,</strong> a software engineer who
+                loves exploring
+                the world join me on
+                my
+                journey to discover amazing destinations and cultures around the globe.
+                This blog will showcase my travel adventures, photography and insights from the road. Whether you're a
+                fellow wanderlust or an armchair traveler, I hope enjoy following along on my trips near and
+                far. Let's explore this beautiful planet togather!
+            </p>
+        </section>
+    </header>
+
+    <!-- Blog post section -->
+
+    <main id="mainBody">
+        <section id="blogSection">
+            <section class="blogPost">
+                <section class="blogPostTop">
+                    <h2>Exploring the Wonders of Nature in Yosemite National Park (California)</h2>
+                    <p class="my-12">Explore the beauty of nature's landscapes, from lush forests to towering
+                        mountains. </p>
+                    <img src="https://images.musement.com/cover/0002/52/thumb_151942_cover_header.jpeg?&q=60&fit=crop"
+                        alt="yosemite national park California nature image" width="400" height="250">
+                </section>
+                <ul class="blogPostCenter">
+                    <li class="my-12">Immerse yourself in the sights and sounds of nature as we trek through ancient
+                        forests teeming
+                        with
+                        life.</li>
+                    <li class="my-12">Feel the cool breeze against your skin as we climb towering peaks and witness
+                        awe-inspiring
+                        vistas
+                        stretching as far as the eye can see.</li>
+                    <li class="my-12">Learn about the diverse ecosystems and fascinating
+                        creatures that
+                        call these environments home, and gain a deeper appreciation for the delicate balance of life on
+                        Earth.</li>
+                </ul>
+                <section class="blogPostBottom">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4heQWsXSIgI?si=_BL3bmQE70g-gDI6"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <article>
+                        <p>Exploring Yosemite National Park, California, I hiked amidst towering cliffs,
+                            admired
+                            cascading
+                            waterfalls, and wandered through ancient forests. <br> Every moment was a breathtaking
+                            encounter
+                            with
+                            the
+                            wonders of nature.</p>
+                    </article>
+                </section>
+            </section>
+            <section id="bali" class="blogPost">
+                <section class="blogPostTop">
+                    <h2>Mindfulness Retreat in Bali: Finding Inner Peace Amidst Nature.</h2>
+                    <p class="my-12">Discover the transformative benefits of mindfulness meditation in the tranquil
+                        setting of Bali.
+                    </p>
+                    <img src="https://img.freepik.com/premium-photo/person-meditating-tranquil-natural-setting-like-forest-by-calm-lake_1007506-19.jpg"
+                        alt="Man meditating near river (Bali)" width="400" height="250">
+                </section>
+                <ul class="blogPostCenter">
+                    <li class="my-12">Dive into the practice of mindfulness and explore its profound effects on the
+                        mind, body, and
+                        spirit.</li>
+                    <li class="my-12">Learn
+                        how to quiet the chatter of your busy mind and embrace the present moment with acceptance and
+                        compassion.</li>
+                    <li class="my-12">Through guided exercises and practical tips, discover how mindfulness can help you
+                        navigate
+                        life's
+                        challenges with greater resilience and inner strength.</li>
+                </ul>
+                <section>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BFS9n4B_2xA?si=dzOZPhXW6ib3-7Pj"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <article>
+                        <p>In Bali's serene landscapes, I found inner peace through mindfulness practices.
+                            Surrounded by nature's beauty, <br> each moment became a tranquil journey towards
+                            self-discovery.
+                        </p>
+                    </article>
+                </section>
+            </section>
+            <section id="italy" class="blogPost">
+                <section class="blogPostTop">
+                    <h2>Homemade Pizza Delights in Naples: A Culinary Adventure</h2>
+                    <p class="my-12">Master the art of homemade pizza with perfect dough and creative toppings.</p>
+                    <!-- <p>Explore the beauty of nature's landscapes, from lush forests to towering mountains. </p> -->
+                    <img src="https://images.pexels.com/photos/1437810/pexels-photo-1437810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="pizza on the table" width="400" height="250">
+                </section>
+                <ul class="blogPostCenter">
+                    <li class="my-12"> Step into the kitchen and embark on a culinary journey as we dive into the world
+                        of homemade
+                        pizza.
+                    </li>
+                    <li class="my-12">Learn the secrets to making the perfect dough – from kneading to proofing – and
+                        discover
+                        creative
+                        topping combinations that will tantalize your taste buds.</li>
+                    <li class="my-12">Whether you prefer classic margherita or
+                        adventurous BBQ chicken, unleash your creativity and personalize your pizzas to suit your unique
+                        palate.</li>
+                </ul>
+                <section>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vsqB_j-R6IQ?si=wCiQMgmxEiclotYs"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <article>
+                        <p>Exploring Yosemite National Park, California, I hiked amidst towering cliffs, admired
+                            cascading
+                            waterfalls, and wandered through ancient forests. <br> Every moment was a breathtaking
+                            encounter
+                            with
+                            the
+                            wonders of nature.</p>
+                    </article>
+                </section>
+            </section>
+        </section>
+        <section id="about" class="p-24">
+            <h2 class="my-12 text-33">About me</h2>
+            <article>
+                <p><b class="text-24">Hi</b> there, I'm Sushil Patil and i created this blog to share my
+                    passion for
+                    travel and
+                    adventure!
+                </p>
+                <p>As a softwere engineer by profession, travel provides the perfect outlet for my curiosity and
+                    creativity.
+                    <br>
+                    This blog allows me to connect with like-minded travelers while documenting my own journey around
+                    the
+                    globe.
+                </p>
+                <p>I hope my stories, photos, and tips will inspire you to step out of your comfort zone, explore new
+                    place,
+                    and create your own memorable experiences. Thanks for joining me!
+                </p>
+            </article>
+        </section>
+        <section id="contact">
+            <h2 class="text-center text-33">Contact me</h2>
+            <section class="flex formSection">
+                <form action="#">
+                    <section class="flex info">
+                        <div>
+                            <label for="name">Name </label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email </label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </section>
+                    <section>
+                        <label for="messgae">Message</label>
+                        <textarea name="messgae" id="messgae" cols="20" rows="3"></textarea>
+                    </section>
+                    <button type="submit">Submit</button>
+                </form>
+                <section class="formSectionRight">
+                    <strong>Contact links</strong>
+                    <section>
+                        <div class="flex">
+                            <span class="contactIcon"><i class="fa-brands fa-linkedin"></i></span>
+                            <a href="https://www.linkedin.com/in/sushil-p-7580a325b/" target="_blank">Linked in </a>
+                        </div>
+                        <div class="flex">
+                            <span class="contactIcon"><i class="fa-brands fa-github"></i></span>
+                            <a href="https://github.com/SushilPatil20?tab=repositories" target="_blank">GitHub</a>
+                        </div>
+                        <div class="flex">
+                            <span class="contactIcon"><i class="fa-solid fa-paper-plane"></i></span>
+                            <a href="mailto:patilsushiloo47@gmail.com">Email</a>
+                        </div>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </main>
+    <footer class="footerSection">
+        <section class="footerTop">
+            <ul>
+                <a href="#california">
+                    <li>California</li>
+                </a>
+                <a href="#bali">
+                    <li>Bali</li>
+                </a>
+                <a href="#italy">
+                    <li>Italy</li>
+                </a>
+                <a href="#about">
+                    <li>About Me</li>
+                </a>
+                <a href="#contact">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </section>
+        <section class="flex footerBottom">
+            <pre>Copyright © 2024 My travel blog</pre>
+            <section class="flex footerBottomLinkHolder">
+                <a href="https://www.linkedin.com/in/sushil-p-7580a325b/" target="_blank" class="flex items-center">
+                    <i class="fa-brands fa-linkedin contactIcon"></i>
+                </a>
+                <a href="https://github.com/SushilPatil20?tab=repositories" target="_blank" class="flex items-center">
+                    <i class="fa-brands fa-github contactIcon"></i>
+                </a>
+                <a href="mailto:patilsushiloo47@gmail.com" class="flex items-center mx-14">
+                    <i class="fa-solid fa-envelope contactIcon"></i>
+                </a>
+            </section>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

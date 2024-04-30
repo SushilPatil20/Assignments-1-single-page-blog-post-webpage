@@ -1,0 +1,114 @@
+/* ----------------------------------- Styling the contact form and section ----------------------------------- */
+
+#contact {
+    margin-top: 4rem;
+    width: 100%;
+    background-color: red;
+    background-image: url(https://img.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_23-2149139104.jpg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: cover;
+    min-height: 90vh;
+    box-shadow: 3px 3px 6px gray;
+    padding: 24px 44px;
+}
+
+#contact>h2 {
+    color: rgb(2, 2, 104);
+    margin: 1rem 0 2rem;
+}
+
+.formSection>form>button {
+    padding: 12px 18px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(2, 2, 104);
+    color: white;
+    margin-top: 22px;
+    transition: 0.4s ease;
+    font-weight: 600;
+}
+
+.formSection>form>button:hover {
+    background-color: white;
+    color: rgb(2, 2, 104);
+    border: 1px solid rgb(2, 2, 104);
+}
+
+
+#contact form,
+.formSectionRight {
+    width: 50%;
+    margin: 0 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#contact form label {
+    display: block;
+    margin: 22px 0 8px;
+    font-size: 22px;
+    color: rgb(2, 2, 104);
+}
+
+#contact form input,
+#contact form textarea {
+    padding: 10px 16px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 0, 172);
+    outline: none;
+    font-size: 18px;
+    color: rgb(0, 0, 172);
+}
+
+#contact form input:focus,
+#contact form textarea:focus {
+    outline: 1px solid rgb(0, 0, 172);
+}
+
+
+.formSectionRight strong {
+    font-size: 28px;
+    color: rgb(2, 2, 104);
+    margin: 12px 0;
+    display: block;
+}
+
+
+.formSectionRight {
+    padding: 2rem 5rem;
+}
+
+.formSectionRight>section>div {
+    margin: 23px 0;
+    align-items: center;
+}
+
+.formSectionRight>section>div>a {
+    font-size: 18px;
+    margin-left: 14px;
+    color: rgb(2, 2, 104);
+    text-decoration: none;
+}
+
+.formSectionRight>section>div>a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.contactIcon {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: rgba(136, 129, 129, 0.153);
+    font-size: 22px;
+    color: black;
+}
